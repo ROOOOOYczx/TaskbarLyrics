@@ -1,5 +1,11 @@
 # TaskbarLyrics
 
+> [!NOTE]
+> 这是 [ANYNC/TaskbarLyrics](https://github.com/ANYNC/TaskbarLyrics) 的个人 Fork，当前维护“多显示器歌词显示与指定显示器多选”适配。
+> 功能代码位于 [`agent/multi-monitor-display-selection`](https://github.com/ROOOOOYczx/TaskbarLyrics/tree/agent/multi-monitor-display-selection) 分支，并已向上游提交 [PR #39](https://github.com/ANYNC/TaskbarLyrics/pull/39)。
+>
+> 主要新增：默认在所有已连接显示器显示歌词、指定一台或多台显示器、显示器热插拔恢复、混合 DPI、负坐标及多任务栏边缘适配。
+
 TaskbarLyrics 是一款 Windows 任务栏歌词工具。播放音乐时，它会自动识别当前歌曲，并把同步歌词显示在任务栏的闲置区域。
 
 无需为每个播放器分别配置歌词插件。程序会自动从多个歌词来源中寻找合适结果，也支持读取本地歌词。
